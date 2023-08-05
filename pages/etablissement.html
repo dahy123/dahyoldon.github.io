@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charest="utf-8">
+        <title>Site de la tête</title>
+
+        <style type="text/css">
+           body{
+                margin: 0px;
+                background: rgb(7, 2, 24);
+                color: aliceblue;
+
+            }
+            header{
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                left:0px;       
+                height: 20%;
+                background: rgb(13, 2, 63);
+                z-index: 4;
+                padding: 10px 10px; 
+            }
+            .tim{
+            	text-align: left;
+            	font-family: 'Times New Roman', Times, serif;
+            	font-size: 60px;
+            	color: #1D5D9B;
+                
+            }
+            .logo{
+            position: fixed;
+            right: 0px;
+            top: 5px;
+            margin: 10px;
+            }
+        
+        .nav{
+                text-align: center;
+            	font-size: 20px;
+                position: fixed;
+                right: 0px;
+                left: 0px;
+                padding: 10px 0px;
+                background: rgb(8, 1, 39);
+
+            }
+        section{
+            position: relative;
+            padding: 130px 20px 20px;
+            z-index: 3;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            /*margin-top: 40px;*/
+        }
+            h1{
+                text-align: left;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+           
+            a:active{/*quand on clique sur le lien*/
+                color: yellow;
+        }
+        figcaption{
+            text-align: center;
+        }
+        a:visited:{
+            color: red;
+                }
+        a{
+            color: rgb(243, 231, 231);
+            text-decoration: none;
+            display: inline-block;
+            width: 10%;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            text-align: center;
+            margin: 0px;
+            margin-top:20%;
+            padding: 5px 0px;
+            bottom: 0px;
+            right:0px;
+            left: 0px;
+            background: rgb(8, 1, 39);
+        }
+        .footer-tete{
+            font-size: 25px;
+        }
+        @media screen and (max-width:1200px) {
+            a{
+                text-align: center;
+                display: inline-block;
+                width: 30%;
+                        }
+            section{
+                margin-top: 30px;
+            }
+        
+
+        }
+
+        </style>
+
+    </head>
+    <body>
+<header>
+    <div class="tim">
+        Site de La Tête
+</div>
+<div class="logo">
+<img src="../images/rdo.png" width="50px" height="50px">    
+</div>
+<div class="nav">
+    <a href="../index.html">Accueil </a><a href="Culltum.html">Curriculum Vitæ</a><a href="etablissement.html">Etablissement </a><a href="ville.html">Ville d'origine</a><a href="#">Maquete</a><a href="image.html">Photos</a><a href="video.html">Videos</a><a href="#">Audio</a><a href="../javascript/calculatrice.html">Javascript</a><a href="aide.html">Contact</a>
+</div>
+ </header>
+<section>
+    <article>
+        <h1>Etablissement d'origine </h1>
+    <p>
+        Avant j'étais au lycée Saint Joseph Ambilobe , cela que j'ai eu mon Baccalauréat et maintenant je suis à l'Université IST-D .
+        Je suis dans la parcours  Informatique (TIM: <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Technologie de l'Informatique et Multimédia</span>). Si vous demandez pourqoui je suivis cette parcours c'est parce que j'aimerai devenir un grand Système de sécurité .
+    </br>En fin j'ai placé quelques photo de mon ancien lycée. </br>
+<figure>
+    <img src="../images/jp.jpg" width="20%"><figcaption></figcaption>
+
+
+</figure>
+
+    </p>
+        
+    </article>
+</section>
+  <footer>
+    <div class="footer">
+        <p class="footer-tete"> Site de la Tête</p>
+    <p>Tél:</br>
+        +261329375154</br>
+        +26133236519
+    </p>  
+<p>Adresse:<br>
+            Tanambao V</br>
+            Madagascar</p>
+        <p>Copyright © 2023  Site de la Tête et partennaire TIM1 </p> 
+        
+        </div>
+</footer>
+
+    </body>
+</html>

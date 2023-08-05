@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Site de la tête </title>
+        <link href="Style/style.css" rel="stylesheet" type="text/css">
+        <style>
+           body{
+                /*margin: 0px;*/
+                background: rgb(7, 2, 24);
+                color: aliceblue;
+
+            }
+            header{
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                left:0px;       
+                height: 20%;
+                background: rgb(13, 2, 63);
+                z-index: 4;
+                padding: 10px 10px; 
+                margin: 0px;
+            }
+            .tim{
+            	text-align: left;
+            	font-family: 'Times New Roman', Times, serif;
+            	font-size: 60px;
+            	color: #1D5D9B;
+                
+            }
+            .logo{
+            position: fixed;
+            right: 0px;
+            top: 5px;
+            margin: 10px;
+            }
+        
+        .nav{
+                text-align: center;
+            	font-size: 20px;
+                position: fixed;
+                right: 0px;
+                left: 0px;
+                padding: 10px 0px;
+                background: rgb(8, 1, 39);
+
+            }
+        section{
+        position: relative;
+        padding-bottom: 130px;
+        margin-top: 9%;
+        text-align: center;
+        z-index: 3;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        
+        
+        }
+        a:active{/*quand on clique sur le lien*/
+                color: yellow;
+        }
+        a:visited:{
+            color: red;
+                }
+        a{
+            color: rgb(243, 231, 231);
+            text-decoration: none;
+            display: inline-block;
+            width: 10%;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .plus{
+            padding-top: 5%;
+        
+        }
+        footer{
+            text-align: center;
+            margin: 0px;
+            padding: 5px 0px;
+            bottom: 0px;
+            right:0px;
+            left: 0px;
+            background: rgb(8, 1, 39);
+        }
+        .footer-tete{
+            font-size: 25px;
+        }
+        @media screen and (max-width:1200px) {
+            a{
+                text-align: center;
+                display: inline-block;
+                width: 30%;
+                        }
+            section{
+                position: relative;
+                 padding: 130px 20px 20px;
+                 font-family: Arial;
+                 margin-top: 4%;
+            }
+            .img{
+                width: 3%;
+            }
+        }
+        </style>
+    </head>
+    <body>
+ <header>
+    <div class="tim">
+        Site de La Tête
+</div>
+<div class="logo">
+<img src="../images/rdo.png" width="50px" height="50px">    
+</div>
+<div class="nav">
+    <a href="../index.html">Accueil </a><a href="Culltum.html">Curriculum Vitæ</a><a href="etablissement.html">Etablissement </a><a href="ville.html">Ville d'origine</a><a href="#">Maquete</a><a href="image.html">Photos</a><a href="video.html">Videos</a><a href="#">Audio</a><a href="../javascript/calculatrice.html">Javascript</a><a href="aide.html">Contact</a>
+</div>
+</header>
+ <hr>
+<section>
+    <article><hr>
+        <div>
+            Avant  d'envoyer  veuillez  bien remplir les vide s'ils  vous plaît  .<br><br>
+            <form action="mailto:dahyoldon@gmail.com" method="POST" class="form">
+                Nom <br><input type="name" placeholder="ex: RAMIZAKA"><br>
+                Prénom <br><input type="name" placeholder="ex: Oldon"><br>
+                <br>Déscription<br><br><textarea  name="description" rows="10" cols="40">***Dites nous ce  que vous pensez de notre cite pour que nous pouvons l'ameliorer ***
+                </textarea>
+                <br><input  type="submit" value="Envoyer">
+            </form>
+        </div>
+        <div class="plus">
+            Plus d'aide <br><br>
+                <img src="../icon/facebook_color_icon_super.png" width=1%" class="img"> Oldon dahy<br>
+                <img src="../icon/twitter_color_icon_super.png" width="1%" class="img"> Oldon dahy
+        </div>
+    </article>
+</section>
+<hr>
+  <footer>
+    <div class="footer">
+        <p class="footer-tete"> La Hotel de la Tête</p>
+    <p>Tél:</br>
+        +261329375154</br>
+        +26133236519
+    </p>  
+<p>Adresse:<br>
+            Tanambao V</br>
+            Madagascar</p>
+        <p>Copyright © 2023  Site de la Tête et partennaire TIM1 </p> 
+        
+        </div>
+</footer>
+       
+    </body>
+</html>

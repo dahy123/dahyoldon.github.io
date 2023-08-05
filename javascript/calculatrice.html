@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Première test avec JavaScript</title>
+    </head>
+    <body>
+        <script>
+         alert('Operation mathématique\n1.Addition\n2.Soustraction\n3.Multiplication \n4.Division');
+       
+        choix=parseInt(prompt('Votre choix'));
+        if(choix==1){
+            alert('addition');
+             nbr=parseInt(prompt('Enter first number'));
+             nbr2=parseInt(prompt('Enter second number'));
+             res=nbr+nbr2;
+             alert('Le résultat est :'+res);
+        }
+        else if(choix==2){
+            alert('Soustraction');
+             nbr=parseInt(prompt('Enter first number '));
+             nbr2=parseInt(prompt('Enter second number'));
+             res=nbr-nbr2;
+             alert('Le résultat est :'+res);
+        }
+         else if(choix==3){
+            alert('Multiplication');
+             nbr=parseInt(prompt('Enter first number '));
+             nbr2=parseInt(prompt('Enter second number'));
+             res=nbr*nbr2;
+             alert('Le resultat est :'+res);
+        }
+        else  if(choix==4){
+            alert('Division');
+             nbr=parseInt(prompt('Enter first number'));
+             nbr2=parseInt(prompt('Enter second number'));
+             res=nbr/nbr2;
+             alert('Le resultat est :'+res);
+        }
+        
+        </script>
+    </body>
+</html>

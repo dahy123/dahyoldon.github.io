@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Site de la Tête</title>
+
+        <style type="text/css">
+              body{
+                margin: 0px;
+                background: rgb(7, 2, 24);
+                color: aliceblue;
+
+            }
+            header{
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                left:0px;       
+                height: 20%;
+                background: rgb(13, 2, 63);
+                z-index: 4;
+                padding: 10px 10px; 
+            }
+            .tim{
+            	text-align: left;
+            	font-family: 'Times New Roman', Times, serif;
+            	font-size: 60px;
+            	color: #1D5D9B;
+                
+            }
+            .logo{
+            position: fixed;
+            right: 0px;
+            top: 5px;
+            margin: 10px;
+            }
+        
+        .nav{
+                text-align: center;
+            	font-size: 20px;
+                position: fixed;
+                right: 0px;
+                left: 0px;
+                padding: 10px 0px;
+                background: rgb(8, 1, 39);
+
+            }
+        .main{
+        position: relative;
+        padding: 130px 20px 20px;
+        z-index: 3;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        
+        }
+        figcaption{
+            text-align: left;
+            font-family:  Times, serif;
+            color: rgb(248, 248, 244);
+            font-size: 12px;
+        }
+        h1{
+                text-align: left;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            a:active{/*quand on clique sur le lien*/
+                color: yellow;
+        }
+        a:visited:{
+            color: red;
+                }
+        a{
+            color: rgb(243, 231, 231);
+            text-decoration: none;
+            display: inline-block;
+            width: 10%;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .footer{
+            text-align: center;
+            margin: 0px;
+            margin-top:20%;
+            padding: 5px 0px;
+            bottom: 0px;
+            right:0px;
+            left: 0px;
+            background: rgb(8, 1, 39);
+        }
+        .footer-tete{
+            font-size: 25px;
+        }
+        @media screen and (max-width:1200px) {
+            a{
+                text-align: center;
+                display: inline-block;
+                width: 30%;
+                        }
+            .main{
+                margin-top: 30px;
+            }
+    
+
+        }
+        </style>
+        </head>
+    <body>
+        <header>
+            <div class="tim">
+                Site de La Tête
+    </div>
+    <div class="logo">
+    <img src="../images/rdo.png" width="50px" height="50px">    
+    </div>
+    
+    <div class="nav">
+        <a href="../index.html">Accueil </a><a href="Culltum.html">Curriculum Vitæ</a><a href="etablissement.html">Etablissement </a><a href="ville.html">Ville d'origine</a><a href="#">Maquete</a><a href="image.html">Photos</a><a href="video.html">Videos</a><a href="audio.html">Audio</a><a href="../javascript/calculatrice.html">Javascript</a><a href="aide.html">Contact</a>
+    </div>
+     </header>
+     <div class="main">
+
+        <h1>Ville d'origine</h1>
+        <p>Moi Dahy Oldon je viens à Vohemar mais j'habitais à Ambilobe pendant tout mon scolarité et maintenant j'habite à Tanambao V du Diego-Suarez. <br>
+        Voici ci-dessous quelques images de mom ancien ville .</p>
+    <figure>
+        <img src="../images/hotel.png" alt="Hotel KOZOBE" width="20%"><figcaption>Hotel Kozobe</figcaption>
+        <img src="../images/hotel2.png" alt="Hotel KOZOBE" width="20%"><figcaption>Hotel Kozobe</figcaption>
+        <img src="../images/hotel3.png" alt="Hotel KOZOBE"  width="18%"><figcaption>Hotel Kozobe</figcaption>
+        <img src="../images/air.png" alt="Hotel KOZOBE"  width="20%"><figcaption>Hotel Kozobe</figcaption>
+    </figure>
+    <figure>
+        <img src="../images/centre.png" alt="Centre"  width="20%"><figcaption>Pharmacie</figcaption>
+        <img src="../images/basket.png" alt="basket" width="20%"><figcaption>Terrain basket</figcaption>
+        <img src="../images/pont.png" alt="pont"  width="19%"><figcaption>Pont et Mahavavy</figcaption>
+        <img src="../images/omby.png" alt="omby"  width="20%"><figcaption>Culturelle</figcaption>
+        
+    </figure>
+        
+    </div>
+
+     <footer>
+        <div class="footer">
+            <p class="footer-tete">  La Site de la Tête</p>
+        <p>Tél:</br>
+            +261329375154</br>
+            +26133236519
+        </p>  
+    <p>Adresse:<br>
+                Tanambao V</br>
+                Madagascar</p>
+            <p>Copyright © 2023  Site de la Tête et partennaire TIM1 </p> 
+            
+            </div>
+    </footer>
+
+        
+    </body>
+</html>
